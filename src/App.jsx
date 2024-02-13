@@ -2,9 +2,12 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="bg-red-300">Hoo</h1>
-    </>
+    <div
+      className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+      style={{
+        backgroundImage: `url(https://images.pexels.com/photos/259251/pexels-photo-259251.jpeg?auto=compress&cs=tinysrgb&w=600)`,
+      }}
+    ></div>
   );
 }
 
