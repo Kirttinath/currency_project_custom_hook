@@ -1,4 +1,5 @@
 import "./App.css";
+import InputBox from "./Components/InputBox";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       style={{
         backgroundImage: `url(https://images.pexels.com/photos/259251/pexels-photo-259251.jpeg?auto=compress&cs=tinysrgb&w=600)`,
       }}
-    ></div>
+    >
+      <InputBox />
+    </div>
   );
 }
 
