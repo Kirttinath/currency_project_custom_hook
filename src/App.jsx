@@ -1,9 +1,7 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <h1 className="bg-red-200">Hii</h1>
+      <h1 className="bg-yellow-200">Hii</h1>
     </>
   );
 }
